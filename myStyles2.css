@@ -1,0 +1,17 @@
+body{ 
+    background-image: url("Band_Website_Photo.png");
+	background-repeat: repeat-x;
+
+
+}
+p{font-size: 300px;
+color: white;
+}
+h3{font-size: 300px;
+color: white;
+}
+
+#lil{font-size: 210px;
+color: white;
+text-align: center;
+}

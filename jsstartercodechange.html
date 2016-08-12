@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+<script>
+	function myFunction() {
+		var words = document.getElementById("Camila @ Girls Who Code");
+		words.innerHTML = "Welcome!";
+	}
+	/*function myotherfunction(){
+		var pic = document.getElementById("scroller");
+		pic.src = "maggie.jpeg";
+		}*/
+	function changeImage(){
+		var image = document.getElementById("scroller");
+		
+		if (image.src.match("city")){
+			image.src = "scrollercode1.png";
+			image.alt = "scrollercode1";
+		}
+		else {
+			image.src = "city.jpg";
+			image.alt = "city";
+		}
+	}
+</script>
+  </head>
+  <body>
+    <h1 id="welcome">Welcome to my page!</h1>
+    <button id="btn" onclick="myFunction()">Click me!</button>
+  </body>
+</html>
+
+
+
+
+
+
+
+	<!--this is how you add an image in html 
+	<!DOCTYPE html>
+	<html>
+	<body>
+
+	<h2>Spectacular Mountain</h2>
+	<img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;">
+
+	</body>
+	</html>
+	-->
+	
+
+
+
+

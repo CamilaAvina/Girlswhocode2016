@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta charsert="utf-8">
+		<meta name="viewport" content=:width=device-width, initial-scales=1">
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="myStyles.css">
+
+<title> Camila @ Girls Who Code </title>
+<script>
+	function myFunction() {
+		var words = document.getElementById("Camila @ Girls Who Code");
+		words.innerHTML = "Welcome!";
+	}
+	function changeImage(){
+		var image = document.getElementById("scroller");
+		
+		if (image.src.match("city")){
+			image.src = "scrollercode1.png";
+			image.alt = "scrollercode1";
+		}
+		else {
+			image.src = "city.jpg";
+			image.alt = "city";
+		}
+	}
+	
+	function changeImage(){
+		var image = document.getElementById("adventure");
+		
+		if (image.src.match("adventure")){
+			image.src = "adventurecode.jpeg";
+			image.alt = "adventure";
+		}
+		else {
+			image.src = "city.jpg";
+			image.alt = "city";
+		}
+	}
+</script>
+
+
+</head>
+<body> 
+	
+	<div class "container-fluid">
+		</div>
+		
+	<h1> <h1 id="Camila @ Girls Who Code">Camila @ Girls Who Code</h1>
+    <button id="btn" onclick="myFunction()">Click me!</button>
+	
+	
+
+
+<p id = "color">Python:	          
+
+<p id = "color"> This is what we did in python that I enjoyed 
+	very much which was the city scroller 
+	and it was like a game.
+	</p>
+<img id = "scroller" src ="city.jpg" alt="This is where my image should go!" onclick="changeImage()" width = "300" height = "300"></img>
+</p>
+	<h2> adventure<h2
+<p id = "color2">Another Python project: 
+</p>	
+<img id = "adventure" src="adventure.jpeg" alt="this is where the picture should go!"  width = "300" height = "300"  ></img>
+	
+
+</body>
+
+</html>
